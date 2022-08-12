@@ -1,0 +1,83 @@
+@import url(css1.css);
+
+body { background-color: antiquewhite;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(255, 166, 0);
+  }
+li {
+      display: flex;
+      font-size: xx-large;
+  
+  }
+
+#header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: rgb(255, 56, 156);
+}
+#blogcard {
+  padding: 40px;
+  font-size: 80px;
+  text-align: center;
+  background:antiquewhite;
+  width: 30;
+  display: grid;
+
+}
+
+h5 {
+    font-size: 12px;
+    text-align: right;
+    display: flex;
+ }
+ 
+#button {
+  background-color: rgb(255, 166, 0);
+  text-align: center;
+}
+
+#footer {
+padding-bottom: 100px;
+background-color: rgb(254, 138, 194);
+}
+
+h2 {
+  text-align: center;
+color: antiquewhite;
+}
+
+h5 {
+  text-align: right;
+  color: rgb(255, 111, 0);
+}
+
+p1 {
+  color: antiquewhite;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .share {
+    text-align: center;
+  }
+
+.girls {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media(max-width: 320px)
+@media(min-width: 901px)
+@media(min-width: 600px) and (max-width: 900px)
